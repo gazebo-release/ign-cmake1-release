@@ -1,0 +1,24 @@
+Source: ignition-cmake
+Standards-Version: 3.9.5
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               pkg-config,
+               debhelper (>= 7.0.50~),
+               libprotoc-dev,
+               libprotobuf-dev (>= 2.3.0),
+               libignition-math3-dev,
+               protobuf-compiler,
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_cmake-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_cmake-release
+Homepage: http://ignitionrobotics.org/
+
+Package: libignition-cmake-dev
+Architecture: any
+Section: libdevel
+Depends: cmake
+Multi-Arch: same
+Description: Protobuf messages for ignitionics applications - Development files
+ This library provides a set of google protobuf messages that are typically used
+ in ignition applications. 
