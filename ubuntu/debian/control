@@ -5,11 +5,7 @@ Section: science
 Priority: optional
 Build-Depends: cmake,
                pkg-config,
-               debhelper (>= 7.0.50~),
-               libprotoc-dev,
-               libprotobuf-dev (>= 2.3.0),
-               libignition-math3-dev,
-               protobuf-compiler,
+               debhelper (>= 9)
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_cmake-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_cmake-release
 Homepage: http://ignitionrobotics.org/
