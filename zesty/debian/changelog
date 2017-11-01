@@ -1,3 +1,9 @@
+ignition-cmake (0.1.1-1~zesty) zesty; urgency=medium
+
+  * ignition-cmake 0.1.1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 01 Nov 2017 16:25:40 -0700
+
 ignition-cmake (0.1.0-1~zesty) zesty; urgency=medium
 
   * ignition-cmake 0.1.0-1 release
