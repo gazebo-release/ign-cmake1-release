@@ -1,8 +1,14 @@
+ignition-cmake (0.3.0-2~zesty) zesty; urgency=medium
+
+  * ignition-cmake 0.3.0-2 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 08 Jan 2018 08:22:31 -0800
+
 ignition-cmake (0.3.0-1~zesty) zesty; urgency=medium
 
   * ignition-cmake 0.3.0-1 release
 
- -- Nate Koenig <nate@osrfoundation.org>  Mo, 08 Jan 2018 07:38:55 -0800
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 08 Jan 2018 07:38:55 -0800
 
 ignition-cmake (0.2.0-1~zesty) zesty; urgency=medium
 
