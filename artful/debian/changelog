@@ -1,53 +1,6 @@
-ignition-cmake (0.5.0-1~artful) artful; urgency=medium
+ignition-cmake1 (0.5.0-1~artful) artful; urgency=medium
 
   * ignition-cmake 0.5.0-1 release
 
  -- Ian Chen <ichen@osrfoundation.org>  Thu, 15 Mar 2018 18:59:37 -0700
 
-ignition-cmake (0.4.1-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.4.1-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 07 Feb 2018 15:18:29 -0800
-
-ignition-cmake (0.4.0-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.4.0-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Fri, 12 Jan 2018 16:27:20 -0800
-
-ignition-cmake (0.3.0-2~artful) artful; urgency=medium
-
-  * ignition-cmake 0.3.0-2 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Mon, 08 Jan 2018 08:22:31 -0800
-
-ignition-cmake (0.3.0-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.3.0-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Mon, 08 Jan 2018 07:38:55 -0800
-
-ignition-cmake (0.2.0-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.2.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 05 Dec 2017 20:56:39 +0100
-
-ignition-cmake (0.2.0~pre3-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.2.0~pre3-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Fri, 01 Dec 2017 15:48:55 -0800
-
-ignition-cmake (0.2.0~pre2-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.2.0~pre2-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Tue, 28 Nov 2017 11:26:46 -0800
-
-ignition-cmake (0.2.0~pre1-1~artful) artful; urgency=medium
-
-  * ignition-cmake 0.2.0~pre1-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Wed, 08 Nov 2017 10:25:24 -0800

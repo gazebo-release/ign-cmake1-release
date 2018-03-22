@@ -1,12 +1,6 @@
-ignition-cmake (0.4.1-2~stretch) stretch; urgency=medium
+ignition-cmake1 (0.4.1-2~stretch) stretch; urgency=medium
 
   * ignition-cmake 0.4.1-2 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 19 Mar 2018 00:33:54 +0100
-
-ignition-cmake (0.4.1-1~stretch) stretch; urgency=medium
-
-  * ignition-cmake 0.4.1-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 07 Feb 2018 15:18:29 -0800
 
