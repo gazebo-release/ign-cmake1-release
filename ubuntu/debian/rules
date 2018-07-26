@@ -4,8 +4,8 @@
 .PHONY: override_dh_auto_configure
 
 %:
-	dh $@ --parallel
+	dh $@ --parallel --buildsystem=cmake
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
+            -DCMAKE_BUILD_TYPE=RelWithDebInfo
