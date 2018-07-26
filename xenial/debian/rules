@@ -1,1 +1,14 @@
-../../ubuntu/debian/rules
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+.PHONY: override_dh_auto_configure override_dh_auto_test
+
+%:
+	dh $@ --parallel --buildsystem=cmake
+
+override_dh_auto_test:
+	pass
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+            -DCMAKE_BUILD_TYPE=RelWithDebInfo
