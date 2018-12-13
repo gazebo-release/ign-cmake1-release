@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-.PHONY: override_dh_auto_configure
+.PHONY: override_dh_auto_configure override_dh_auto_install
 
 %:
 	dh $@ --parallel --buildsystem=cmake
@@ -9,3 +9,7 @@
 override_dh_auto_configure:
 	dh_auto_configure -- \
             -DCMAKE_BUILD_TYPE=RelWithDebInfo
+
+override_dh_auto_install:
+	echo $(PWD)
+	dh_auto_install
