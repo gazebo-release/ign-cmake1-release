@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-.PHONY: override_dh_auto_configure override_dh_auto_install override_dh_shlibdeps
+.PHONY: override_dh_auto_configure override_dh_auto_install
 
 %:
 	dh $@ --parallel --buildsystem=cmake
@@ -11,9 +11,9 @@ override_dh_auto_configure:
             -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 override_dh_auto_install:
-	echo $(PWD)
 	dh_auto_install
+	find 'debian/libignition-cmake1-dev/' -mindepth 1 -maxdepth 1 ! -name 'usr' -type d -exec rm -f {} +
 
 # Ignore testing libs
-override_dh_shlibdeps:
-	dh_shlibdeps -Xlibignition-core_
+#override_dh_shlibdeps:
+#	dh_shlibdeps -Xlibignition-core_
