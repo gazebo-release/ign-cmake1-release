@@ -12,7 +12,7 @@ override_dh_auto_configure:
 
 override_dh_auto_install:
 	dh_auto_install
-	find 'debian/libignition-cmake1-dev/' -mindepth 1 -maxdepth 1 ! -name 'usr' -type d -exec rm -f {} +
+	find 'debian/libignition-cmake1-dev/' -mindepth 1 -maxdepth 1 ! -name 'usr' -type d -exec rm -rf {} +
 
 # Ignore testing libs
 #override_dh_shlibdeps:
